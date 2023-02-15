@@ -26,7 +26,7 @@ st.header(' ')
 st.header(' ')
 
 # select the feature
-feature_options = st.selectbox('Select The Feature', ['partner', 'dependents', 'partner', 'dependents'])
+feature_options = st.selectbox('Select The Feature', ['gender', 'seniorcitizen', 'partner', 'dependents'])
 st.header(' ')
 
 fig = exploring_categorical_features_by_churn(feature_options)
