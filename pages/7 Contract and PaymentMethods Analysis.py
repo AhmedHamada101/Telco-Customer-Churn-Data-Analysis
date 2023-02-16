@@ -11,6 +11,11 @@ def load_data():
 
 data = load_data()
 
+# add title
+st.markdown('<h1 style = "text-align:center; font-size:250%;">Telco Customare Churn Data Analysis</h1>', unsafe_allow_html = True)
+st.title(' ')
+st.title(' ')
+
 # function for exploring categorical feature
 def exploring_categorical_features_by_churn(feature): 
     fig = px.bar(data.groupby(feature)['churn'].mean(), height = 500, width = 600, 
