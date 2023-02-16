@@ -13,6 +13,7 @@ data = load_data()
 # add title
 st.markdown('<h1 style = "text-align:center; font-size:250%;">Telco Customare Churn Data Analysis</h1>', unsafe_allow_html = True)
 st.title(' ')
+st.title(' ')
 
 # about data
 st.header('About Project')
