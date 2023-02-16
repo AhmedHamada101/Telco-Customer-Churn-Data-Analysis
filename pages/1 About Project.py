@@ -18,7 +18,7 @@ st.header(' ')
 
 # about data
 st.header('Notebook Link')
-st.markdown('You can see my notebook on Kaggle: https://www.kaggle.com/ahmedmohammedhamada/customer-churn-analysis-eda')
+st.markdown('You can see my notebook on Kaggle: [Kaggle Notebook](https://www.kaggle.com/ahmedmohammedhamada/customer-churn-analysis-eda'))
 st.header(' ')
 st.header(' ')
 
