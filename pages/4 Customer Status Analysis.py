@@ -21,7 +21,7 @@ def exploring_categorical_features_by_churn(feature):
     return fig
 
 # add header
-st.markdown('### The effect of Gender, SeniorCitizen, Partner and Dependentson on customer churn:')
+st.markdown('### Impact of Gender, SeniorCitizen, Partner and Dependentson on customer churn:')
 st.header(' ')
 st.header(' ')
 
