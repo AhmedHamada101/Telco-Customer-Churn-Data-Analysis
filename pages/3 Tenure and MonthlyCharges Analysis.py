@@ -12,7 +12,7 @@ def load_data():
 data = load_data()
 
 # add header
-st.markdown('### The effect of Tenure on customer churn:')
+st.markdown('### 1. Impact of Tenure on customer churn:')
 st.header(' ')
 st.header(' ')
 
@@ -50,7 +50,7 @@ st.header(' ')
 st.header(' ')
 
 # add header
-st.markdown('### 2. The effect of MonthlyCharges on customer churn:')
+st.markdown('### 2. Impact of MonthlyCharges on customer churn:')
 st.header(' ')
 
 fig3 = exploring_numerical_features(data[data['churn'] == 1], 'monthlycharges')
