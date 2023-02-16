@@ -7,4 +7,4 @@
 # 
 # 
 
-#### Web App Link: https://customer-churn-eda.streamlit.app
+#### Web App Link: [APP](https://customer-churn-eda.streamlit.app)
