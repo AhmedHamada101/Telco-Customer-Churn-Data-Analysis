@@ -1,7 +1,5 @@
 # Telco-Customer-Churn-Data-Analysis
 
-# 
-
 <img src="app_image.jpg">
 
 # 
