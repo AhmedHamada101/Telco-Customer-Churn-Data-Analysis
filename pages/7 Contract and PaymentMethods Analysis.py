@@ -19,7 +19,7 @@ def exploring_categorical_features_by_churn(feature):
     return fig
 
 # add header
-st.markdown('### The effect of Contract and Payment on customer churn:')
+st.markdown('### Impact of Contract and PaymentMethods on customer churn:')
 st.header(' ')
 st.header(' ')
 
