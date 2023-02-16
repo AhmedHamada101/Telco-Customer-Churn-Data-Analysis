@@ -25,10 +25,7 @@ def exploring_categorical_features_by_churn(feature):
     fig.update_layout(xaxis_title = feature, yaxis_title = 'Percentage of Churn')
     return fig
 
-# add header
-st.markdown('### Impact of Gender, SeniorCitizen, Partner and Dependentson on customer churn:')
-st.header(' ')
-st.header(' ')
+
 
 # select the feature
 feature_options = st.selectbox('Select The Feature', ['partner', 'dependents', 'partner', 'dependents'])
