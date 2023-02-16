@@ -13,10 +13,10 @@ def load_data():
 
 data = load_data()
 
-# add title
-st.markdown('<h1 style = "text-align:center; font-size:250%;">Telco Customare Churn Data Analysis</h1>', unsafe_allow_html = True)
-st.title(' ')
-st.title(' ')
+# add header
+st.markdown('### The effect of Gender, SeniorCitizen, Partner and Dependentson on customer churn:')
+st.header(' ')
+st.header(' ')
 
 # function for exploring categorical feature
 def exploring_categorical_features_by_churn(feature): 
