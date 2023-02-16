@@ -18,13 +18,13 @@ st.header(' ')
 
 # about data
 st.header('Notebook Link')
-st.markdown('You can see my notebook on Kaggle: [Kaggle Notebook](https://www.kaggle.com/ahmedmohammedhamada/customer-churn-analysis-eda'))
+st.markdown('You can see my notebook on Kaggle: [Kaggle Notebook](https://www.kaggle.com/ahmedmohammedhamada/customer-churn-analysis-eda'), unsafe_allow_html = True)
 st.header(' ')
 st.header(' ')
 
 # about data
 st.header('Data Link')
-st.markdown('You can get data from Kaggle: https://www.kaggle.com/datasets/blastchar/telco-customer-churn')
+st.markdown('You can get data from Kaggle: [Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn'), unsafe_allow_html = True)
 st.header(' ')
 st.header(' ')
 
