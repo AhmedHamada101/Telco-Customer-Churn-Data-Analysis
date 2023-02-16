@@ -8,4 +8,4 @@
 
 # 
 
-### Web App Link: [APP](https://customer-churn-eda.streamlit.app)
+### Web App Link: [APP](https://telco-customer-churn-eda.streamlit.app)
