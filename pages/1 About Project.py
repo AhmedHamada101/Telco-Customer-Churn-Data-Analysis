@@ -17,14 +17,12 @@ st.header(' ')
 st.header(' ')
 
 # about data
-st.header('Notebook Link')
-st.markdown('You can see my notebook on Kaggle: [Kaggle Notebook](https://www.kaggle.com/ahmedmohammedhamada/customer-churn-analysis-eda)', unsafe_allow_html = True)
-st.header(' ')
-st.header(' ')
-
-# about data
-st.header('Data Link')
+st.header('About Project')
 st.markdown('You can get data from Kaggle: [Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)', unsafe_allow_html = True)
+st.markdown('You can see the notebook on Kaggle: [Kaggle Notebook](https://www.kaggle.com/ahmedmohammedhamada/customer-churn-analysis-eda)', unsafe_allow_html = True)
+st.markdown('You can check the project repository on GitHub: [Project Repository](https://github.com/AhmedHamada101/Telco-Customer-Churn-Data-Analysis)', unsafe_allow_html = True)
+st.markdown('You can view my LinkedIn Profile: [LinkedIn Profile](https://www.linkedin.com/in/ahmed-hamada-a38b9a219)', unsafe_allow_html = True)
+
 st.header(' ')
 st.header(' ')
 
