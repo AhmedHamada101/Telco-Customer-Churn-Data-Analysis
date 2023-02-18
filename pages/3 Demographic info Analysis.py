@@ -23,13 +23,13 @@ st.title('')
 def about_features(col):
     feature = data[col].value_counts(normalize = True)
     fig = px.pie(values = feature.values, names = feature.index, 
-                 title = col, height = 450, width = 800, hole = 0.5)
+                 title = col, height = 400, width = 700, hole = 0.5)
     return fig
 
 
 # function for exploring categorical feature
 def exploring_categorical_features_by_churn(feature): 
-    fig = px.bar(data.groupby(feature)['churn'].mean(), height = 500, width = 600, 
+    fig = px.bar(data.groupby(feature)['churn'].mean(), height = 500, width = 700, 
                  color = data.groupby(feature)['churn'].mean().index)
     fig.update_layout(xaxis_title = feature, yaxis_title = 'Percentage of Churn')
     return fig
