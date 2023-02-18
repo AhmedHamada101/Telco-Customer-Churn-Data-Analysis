@@ -8,4 +8,4 @@
 
 # 
 
-### You can view the [Streamlit App](https://telco-customer-churn-report.streamlit.app) of this Project
+### You can view the [Streamlit App](https://telco-customer-churn-report.streamlit.app/) of this Project
