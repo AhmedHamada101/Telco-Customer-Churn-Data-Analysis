@@ -29,7 +29,7 @@ st.info('### Churn Distribution')
 # Display the churn details
 feature = data['churn'].value_counts(normalize = True)
 fig1 = px.pie(values = feature.values, names = feature.index, hole = 0.5, title = 'churn', 
-             height = 400, width = 700, color = [0, 1], color_discrete_map = {0: '#4183D7', 1: '#CC0000'})
+             height = 400, width = 650, color = [0, 1], color_discrete_map = {0: '#4183D7', 1: '#CC0000'})
 st.plotly_chart(fig1) 
 
 # add  note
