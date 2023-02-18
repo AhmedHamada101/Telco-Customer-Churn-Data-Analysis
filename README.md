@@ -8,4 +8,4 @@
 
 # 
 
-### You can view the [Streamlit App](https://telco-customer-churn-eda.streamlit.app) of this Projec
+### You can view the [Streamlit App](https://telco-customer-churn-eda.streamlit.app) of this Project
