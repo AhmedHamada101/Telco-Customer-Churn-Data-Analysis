@@ -4,8 +4,8 @@
 
 # 
 
-### You can see my notebook on Kaggle: [Kaggle Notebook](https://www.kaggle.com/ahmedmohammedhamada/customer-churn-analysis-eda)
+### You can see my notebook on [Kaggle](https://www.kaggle.com/ahmedmohammedhamada/customer-churn-analysis-eda)
 
 # 
 
-### Web App Link: [APP](https://telco-customer-churn-eda.streamlit.app)
+### You can view the [Streamlit App](https://telco-customer-churn-eda.streamlit.app) of this Project
