@@ -49,7 +49,7 @@ with st.container():
         st.plotly_chart(fig1) 
 
     with col2:
-        st.markdown('##### Customers who remainedthe company:')
+        st.markdown('##### Customers who remained the company:')
         st.plotly_chart(fig2)
 
 # add  note
